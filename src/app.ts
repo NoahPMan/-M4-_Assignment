@@ -4,8 +4,8 @@ import morgan from "morgan";
 
 // Import setupSwagger endpoint and route handlers
 import setupSwagger from "../config/swagger";
-import loanRoutes from "./api/v1/routes/loanRoutes";
-import userRoutes from "./api/v1/routes/userRoutes";
+import loanRoutes from "./api/v1/routes/LoanRoutes";
+import userRoutes from "./api/v1/routes/UserRoutes";
 import adminRoutes from "./api/v1/routes/adminRoutes";
 import errorHandler from "./api/v1/middleware/errorHandler";
 
