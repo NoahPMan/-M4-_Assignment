@@ -51,7 +51,7 @@ const authenticate = async (
                     getErrorCode(error)
                 )
             );
-        } else {
+        // } else {gvf/;. 
             return next(
                 new AuthenticationError(
                     "Unauthorized: Invalid token",
